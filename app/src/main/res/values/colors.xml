@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Brand palette -->
-    <color name="colorPrimary">#00696D</color>
+    <!-- Brand palette (matches app logo: red #C81C1C + warm gray #A99F9F on white) -->
+    <color name="colorPrimary">#C81C1C</color>
     <color name="colorOnPrimary">#FFFFFF</color>
-    <color name="colorPrimaryContainer">#9CF1F2</color>
-    <color name="colorOnPrimaryContainer">#002021</color>
-    <color name="colorSecondary">#4A6363</color>
+    <color name="colorPrimaryContainer">#FFDAD6</color>
+    <color name="colorOnPrimaryContainer">#410002</color>
+    <color name="colorSecondary">#6E5D5D</color>
     <color name="colorOnSecondary">#FFFFFF</color>
-    <color name="colorSecondaryContainer">#CCE8E7</color>
-    <color name="colorOnSecondaryContainer">#051F1F</color>
+    <color name="colorSecondaryContainer">#F9DDDB</color>
+    <color name="colorOnSecondaryContainer">#2A1616</color>
 
-    <!-- Surface & background -->
-    <color name="colorBackground">#F6FAF9</color>
-    <color name="colorOnBackground">#191C1C</color>
-    <color name="colorSurface">#F6FAF9</color>
-    <color name="colorOnSurface">#191C1C</color>
-    <color name="colorSurfaceVariant">#DEE4E4</color>
-    <color name="colorOnSurfaceVariant">#3F4948</color>
-    <color name="colorOutline">#6F7978</color>
-    <color name="colorOutlineVariant">#DEE4E4</color>
-    <color name="colorSurfaceContainerHighest">#E1E7E6</color>
+    <!-- Surface & background (warm off-white tinted to sit with the logo) -->
+    <color name="colorBackground">#FFF8F7</color>
+    <color name="colorOnBackground">#201A1A</color>
+    <color name="colorSurface">#FFF8F7</color>
+    <color name="colorOnSurface">#201A1A</color>
+    <color name="colorSurfaceVariant">#F0DDDB</color>
+    <color name="colorOnSurfaceVariant">#534341</color>
+    <color name="colorOutline">#857372</color>
+    <color name="colorOutlineVariant">#E0CAC8</color>
+    <color name="colorSurfaceContainerHighest">#F9EBEA</color>
 
-    <!-- Error -->
+    <!-- Error (kept visually distinct from the red brand) -->
     <color name="colorError">#BA1A1A</color>
     <color name="colorOnError">#FFFFFF</color>
     <color name="colorErrorContainer">#FFDAD6</color>
     <color name="colorOnErrorContainer">#410002</color>
 
     <!-- Semantic text colors (used directly in code/layouts) -->
-    <color name="textPlaceholder">#3F4948</color>
-    <color name="textDefault">#191C1C</color>
+    <color name="textPlaceholder">#534341</color>
+    <color name="textDefault">#201A1A</color>
 </resources>

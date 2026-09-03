@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Brand palette (dark) -->
-    <color name="colorPrimary">#7FD4D6</color>
-    <color name="colorOnPrimary">#003739</color>
-    <color name="colorPrimaryContainer">#005053</color>
-    <color name="colorOnPrimaryContainer">#9CF1F2</color>
-    <color name="colorSecondary">#AFCCCB</color>
-    <color name="colorOnSecondary">#1B3434</color>
-    <color name="colorSecondaryContainer">#324B4B</color>
-    <color name="colorOnSecondaryContainer">#CCE8E7</color>
+    <!-- Brand palette (dark, derived from logo red #C81C1C + warm gray) -->
+    <color name="colorPrimary">#FFB3AB</color>
+    <color name="colorOnPrimary">#6A000E</color>
+    <color name="colorPrimaryContainer">#93000A</color>
+    <color name="colorOnPrimaryContainer">#FFDAD6</color>
+    <color name="colorSecondary">#E6BDBC</color>
+    <color name="colorOnSecondary">#492426</color>
+    <color name="colorSecondaryContainer">#613436</color>
+    <color name="colorOnSecondaryContainer">#FFDAD6</color>
 
     <!-- Surface & background -->
-    <color name="colorBackground">#101616</color>
-    <color name="colorOnBackground">#DEE4E3</color>
-    <color name="colorSurface">#101616</color>
-    <color name="colorOnSurface">#DEE4E3</color>
-    <color name="colorSurfaceVariant">#3F4948</color>
-    <color name="colorOnSurfaceVariant">#BEC9C8</color>
-    <color name="colorOutline">#899493</color>
-    <color name="colorOutlineVariant">#3F4948</color>
-    <color name="colorSurfaceContainerHighest">#242D2D</color>
+    <color name="colorBackground">#1B1213</color>
+    <color name="colorOnBackground">#F4DEDC</color>
+    <color name="colorSurface">#1B1213</color>
+    <color name="colorOnSurface">#F4DEDC</color>
+    <color name="colorSurfaceVariant">#534341</color>
+    <color name="colorOnSurfaceVariant">#D8C2C0</color>
+    <color name="colorOutline">#80716F</color>
+    <color name="colorOutlineVariant">#534341</color>
+    <color name="colorSurfaceContainerHighest">#382C2D</color>
 
     <!-- Error -->
     <color name="colorError">#FFB4AB</color>
@@ -28,6 +28,6 @@
     <color name="colorOnErrorContainer">#FFDAD6</color>
 
     <!-- Semantic text colors -->
-    <color name="textPlaceholder">#BEC9C8</color>
-    <color name="textDefault">#DEE4E3</color>
+    <color name="textPlaceholder">#D8C2C0</color>
+    <color name="textDefault">#F4DEDC</color>
 </resources>
