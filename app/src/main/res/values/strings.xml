@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">My Student Profile</string>
+    <string name="app_title">My Student Profile</string>
+    <string name="app_subtitle">CC106 — Prelim Laboratory Exam</string>
+
+    <string name="hint_name">Student Name</string>
+    <string name="hint_student_id">Student ID</string>
+    <string name="hint_course">Course</string>
+    <string name="hint_year">Year Level</string>
+    <string name="hint_hometown">Hometown</string>
+
+    <string name="btn_generate">GENERATE PROFILE</string>
+    <string name="btn_clear">CLEAR</string>
+
+    <string name="error_required">Required</string>
+    <string name="validation_message">Please complete all fields.</string>
+    <string name="result_placeholder">Your generated profile will appear here.</string>
+</resources>

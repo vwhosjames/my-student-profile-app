@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Brand palette (dark) -->
+    <color name="colorPrimary">#7FD4D6</color>
+    <color name="colorOnPrimary">#003739</color>
+    <color name="colorPrimaryContainer">#005053</color>
+    <color name="colorOnPrimaryContainer">#9CF1F2</color>
+    <color name="colorSecondary">#AFCCCB</color>
+    <color name="colorOnSecondary">#1B3434</color>
+    <color name="colorSecondaryContainer">#324B4B</color>
+    <color name="colorOnSecondaryContainer">#CCE8E7</color>
+
+    <!-- Surface & background -->
+    <color name="colorBackground">#101616</color>
+    <color name="colorOnBackground">#DEE4E3</color>
+    <color name="colorSurface">#101616</color>
+    <color name="colorOnSurface">#DEE4E3</color>
+    <color name="colorSurfaceVariant">#3F4948</color>
+    <color name="colorOnSurfaceVariant">#BEC9C8</color>
+    <color name="colorOutline">#899493</color>
+    <color name="colorOutlineVariant">#3F4948</color>
+    <color name="colorSurfaceContainerHighest">#242D2D</color>
+
+    <!-- Error -->
+    <color name="colorError">#FFB4AB</color>
+    <color name="colorOnError">#690005</color>
+    <color name="colorErrorContainer">#93000A</color>
+    <color name="colorOnErrorContainer">#FFDAD6</color>
+
+    <!-- Semantic text colors -->
+    <color name="textPlaceholder">#BEC9C8</color>
+    <color name="textDefault">#DEE4E3</color>
+</resources>
