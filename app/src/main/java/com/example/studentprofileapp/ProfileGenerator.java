@@ -22,11 +22,11 @@ public class ProfileGenerator {
     public String generateProfile(String studentName, String studentId,
                                   String course, String yearLevel, String hometown) {
         return "STUDENT PROFILE\n"
-                + "Name: " + studentName + "\n"
+                + "\nName: " + studentName + "\n"
                 + "Student ID: " + studentId + "\n"
                 + "Course: " + course + "\n"
                 + "Year: " + yearLevel + "\n"
                 + "Hometown: " + hometown + "\n"
-                + "Welcome, " + studentName + "!";
+                + "\nWelcome, " + studentName + "!";
     }
 }
