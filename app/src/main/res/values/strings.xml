@@ -16,4 +16,5 @@
     <string name="error_required">Required</string>
     <string name="validation_message">Please complete all fields.</string>
     <string name="result_placeholder">Your generated profile will appear here.</string>
+    <string name="cd_toggle_theme">Toggle dark mode</string>
 </resources>

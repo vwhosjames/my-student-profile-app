@@ -56,6 +56,18 @@
                     android:textColor="@color/colorOnSurfaceVariant"
                     android:textSize="13sp" />
             </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btnThemeToggle"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="8dp"
+                android:background="@drawable/bg_theme_toggle"
+                android:contentDescription="@string/cd_toggle_theme"
+                android:padding="12dp"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ic_moon"
+                app:tint="@color/colorOnSurface" />
         </LinearLayout>
 
         <!-- Student Name -->
@@ -210,6 +222,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="26dp"
             android:background="@drawable/bg_result"
+            android:freezesText="true"
             android:gravity="top|start"
             android:lineSpacingExtra="4dp"
             android:minHeight="140dp"
