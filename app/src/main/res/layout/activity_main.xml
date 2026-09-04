@@ -25,16 +25,15 @@
             android:gravity="center_vertical"
             android:orientation="horizontal">
 
-            <TextView
+            <ImageView
                 android:layout_width="52dp"
                 android:layout_height="52dp"
                 android:background="@drawable/bg_monogram"
-                android:gravity="center"
+                android:contentDescription="@null"
                 android:importantForAccessibility="no"
-                android:text="SP"
-                android:textColor="@color/colorOnPrimaryContainer"
-                android:textSize="18sp"
-                android:textStyle="bold" />
+                android:padding="12dp"
+                android:src="@drawable/ic_graduation_cap"
+                app:tint="@color/colorOnPrimaryContainer" />
 
             <LinearLayout
                 android:layout_width="0dp"

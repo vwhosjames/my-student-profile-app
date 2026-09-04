@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">Studify</string>
-    <string name="app_title">Student Profile</string>
+    <string name="app_title">Studify</string>
     <string name="app_subtitle">Student Information</string>
 
     <string name="hint_name">Student Name</string>
