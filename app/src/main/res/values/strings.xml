@@ -10,7 +10,7 @@
     <string name="hint_year">Year Level</string>
     <string name="hint_hometown">Hometown</string>
 
-    <string name="btn_generate">GENERATE PROFILE</string>
+    <string name="btn_generate">GENERATE</string>
     <string name="btn_clear">CLEAR</string>
 
     <string name="error_required">Required</string>
