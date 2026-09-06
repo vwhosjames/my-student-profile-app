@@ -66,7 +66,7 @@
                 android:contentDescription="@string/cd_toggle_theme"
                 android:padding="12dp"
                 android:scaleType="fitCenter"
-                android:src="@drawable/ic_moon"
+                app:srcCompat="@drawable/ic_moon"
                 app:tint="@color/colorOnSurface" />
         </LinearLayout>
 
