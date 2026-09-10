@@ -98,6 +98,17 @@ class MainActivity : AppCompatActivity() {
         findViewById<View>(R.id.btnGenerate).setOnClickListener { generateProfile() }
         findViewById<View>(R.id.btnClear).setOnClickListener { clearForm() }
 
+        if (intent.getBooleanExtra("trigger_validation", false)) {
+            mainView.post {
+                generateProfile()
+                if (intent.getBooleanExtra("scroll_down", false)) {
+                    mainView.postDelayed({
+                        (mainView as? android.widget.ScrollView)?.fullScroll(android.view.View.FOCUS_DOWN)
+                    }, 300)
+                }
+            }
+        }
+
         // Execute smooth circular reveal animation if transitioning between themes
         checkAndPlayThemeTransition(mainView)
     }
@@ -283,7 +294,7 @@ class MainActivity : AppCompatActivity() {
             emptyFields.forEach { it.first.error = getString(R.string.error_required) }
             emptyFields.first().second.requestFocus()
 
-            resultTextColorRes = R.color.colorError
+            resultTextColorRes = R.color.outputWarningText
             tvResult.setTextColor(ContextCompat.getColor(this, resultTextColorRes))
             tvResult.text = getString(R.string.validation_message)
             return
