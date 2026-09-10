@@ -18,7 +18,6 @@
         android:paddingTop="16dp"
         android:paddingBottom="36dp">
 
-        <!-- Header -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -70,7 +69,6 @@
                 app:tint="@color/colorOnSurface" />
         </LinearLayout>
 
-        <!-- Student Name -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilName"
             style="@style/Widget.App.TextInputLayout"
@@ -90,7 +88,6 @@
                 android:textSize="16sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Student ID -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilStudentId"
             style="@style/Widget.App.TextInputLayout"
@@ -110,7 +107,6 @@
                 android:textSize="16sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Course -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilCourse"
             style="@style/Widget.App.TextInputLayout"
@@ -130,7 +126,6 @@
                 android:textSize="16sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Year Level -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilYear"
             style="@style/Widget.App.TextInputLayout"
@@ -150,7 +145,6 @@
                 android:textSize="16sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Hometown -->
         <com.google.android.material.textfield.TextInputLayout
             android:id="@+id/tilHometown"
             style="@style/Widget.App.TextInputLayout"
@@ -170,7 +164,6 @@
                 android:textSize="16sp" />
         </com.google.android.material.textfield.TextInputLayout>
 
-        <!-- Action buttons -->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -229,7 +222,6 @@
                 app:strokeWidth="1dp" />
         </LinearLayout>
 
-        <!-- Result -->
         <TextView
             android:id="@+id/tvResult"
             android:layout_width="match_parent"

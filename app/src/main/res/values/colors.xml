@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Brand palette (matches app logo: red #C81C1C + warm gray #A99F9F on white) -->
     <color name="colorPrimary">#C81C1C</color>
     <color name="colorOnPrimary">#FFFFFF</color>
     <color name="colorPrimaryContainer">#FFDAD6</color>
@@ -10,7 +9,6 @@
     <color name="colorSecondaryContainer">#F9DDDB</color>
     <color name="colorOnSecondaryContainer">#2A1616</color>
 
-    <!-- Surface & background (warm off-white tinted to sit with the logo) -->
     <color name="colorBackground">#FFF8F7</color>
     <color name="colorOnBackground">#201A1A</color>
     <color name="colorSurface">#FFF8F7</color>
@@ -21,7 +19,6 @@
     <color name="colorOutlineVariant">#E0CAC8</color>
     <color name="colorSurfaceContainerHighest">#F9EBEA</color>
 
-    <!-- Error (kept visually distinct from the red brand) -->
     <color name="colorError">#BA1A1A</color>
     <color name="colorOnError">#FFFFFF</color>
     <color name="colorErrorContainer">#FFDAD6</color>
@@ -31,7 +28,6 @@
     <color name="inputErrorText">#BA1A1A</color>
     <color name="outputWarningText">#BA1A1A</color>
 
-    <!-- Component-specific semantic colors -->
     <color name="inputBorder">#857372</color>
     <color name="inputBorderFocused">#C81C1C</color>
     <color name="inputHint">#534341</color>
@@ -43,7 +39,6 @@
     <color name="clearButtonText">#C81C1C</color>
     <color name="outputCardBackground">#F9EBEA</color>
 
-    <!-- Semantic text colors (used directly in code/layouts) -->
     <color name="textPlaceholder">#534341</color>
     <color name="textDefault">#201A1A</color>
 </resources>
