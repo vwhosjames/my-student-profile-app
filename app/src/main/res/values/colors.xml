@@ -26,6 +26,22 @@
     <color name="colorOnError">#FFFFFF</color>
     <color name="colorErrorContainer">#FFDAD6</color>
     <color name="colorOnErrorContainer">#410002</color>
+    <color name="inputErrorBorder">#BA1A1A</color>
+    <color name="inputErrorIcon">#BA1A1A</color>
+    <color name="inputErrorText">#BA1A1A</color>
+    <color name="outputWarningText">#BA1A1A</color>
+
+    <!-- Component-specific semantic colors -->
+    <color name="inputBorder">#857372</color>
+    <color name="inputBorderFocused">#C81C1C</color>
+    <color name="inputHint">#534341</color>
+    <color name="inputFloatingHint">#534341</color>
+    <color name="inputText">#201A1A</color>
+    <color name="btnPrimaryBackground">#C81C1C</color>
+    <color name="btnPrimaryText">#FFFFFF</color>
+    <color name="clearButtonStroke">#857372</color>
+    <color name="clearButtonText">#C81C1C</color>
+    <color name="outputCardBackground">#F9EBEA</color>
 
     <!-- Semantic text colors (used directly in code/layouts) -->
     <color name="textPlaceholder">#534341</color>

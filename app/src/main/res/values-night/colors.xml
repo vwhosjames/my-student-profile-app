@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Brand palette (dark, derived from logo red #C81C1C + warm gray) -->
-    <color name="colorPrimary">#FFB3AB</color>
-    <color name="colorOnPrimary">#6A000E</color>
+    <!-- Brand palette (dark mode: rich primary red #D32F2F + high contrast) -->
+    <color name="colorPrimary">#D32F2F</color>
+    <color name="colorOnPrimary">#FFFFFF</color>
     <color name="colorPrimaryContainer">#93000A</color>
     <color name="colorOnPrimaryContainer">#FFDAD6</color>
     <color name="colorSecondary">#E6BDBC</color>
@@ -10,24 +10,40 @@
     <color name="colorSecondaryContainer">#613436</color>
     <color name="colorOnSecondaryContainer">#FFDAD6</color>
 
-    <!-- Surface & background -->
-    <color name="colorBackground">#1B1213</color>
-    <color name="colorOnBackground">#F4DEDC</color>
-    <color name="colorSurface">#1B1213</color>
-    <color name="colorOnSurface">#F4DEDC</color>
-    <color name="colorSurfaceVariant">#534341</color>
-    <color name="colorOnSurfaceVariant">#D8C2C0</color>
-    <color name="colorOutline">#80716F</color>
-    <color name="colorOutlineVariant">#534341</color>
-    <color name="colorSurfaceContainerHighest">#382C2D</color>
+    <!-- Surface & background (neutral dark surface #121212) -->
+    <color name="colorBackground">#121212</color>
+    <color name="colorOnBackground">#FFFFFF</color>
+    <color name="colorSurface">#121212</color>
+    <color name="colorOnSurface">#F5F5F5</color>
+    <color name="colorSurfaceVariant">#1E1E1E</color>
+    <color name="colorOnSurfaceVariant">#B0B0B0</color>
+    <color name="colorOutline">#3E3E3E</color>
+    <color name="colorOutlineVariant">#2C2C2C</color>
+    <color name="colorSurfaceContainerHighest">#1E1E1E</color>
 
-    <!-- Error -->
-    <color name="colorError">#FFB4AB</color>
+    <!-- Error state colors (high contrast accessibility) -->
+    <color name="colorError">#FF8A80</color>
     <color name="colorOnError">#690005</color>
     <color name="colorErrorContainer">#93000A</color>
     <color name="colorOnErrorContainer">#FFDAD6</color>
+    <color name="inputErrorBorder">#FF5252</color>
+    <color name="inputErrorIcon">#FF5252</color>
+    <color name="inputErrorText">#FF8A80</color>
+    <color name="outputWarningText">#FF8A80</color>
+
+    <!-- Component-specific semantic colors -->
+    <color name="inputBorder">#3E3E3E</color>
+    <color name="inputBorderFocused">#B0B0B0</color>
+    <color name="inputHint">#B0B0B0</color>
+    <color name="inputFloatingHint">#B0B0B0</color>
+    <color name="inputText">#FFFFFF</color>
+    <color name="btnPrimaryBackground">#D32F2F</color>
+    <color name="btnPrimaryText">#FFFFFF</color>
+    <color name="clearButtonStroke">#4F4F4F</color>
+    <color name="clearButtonText">#FF6B6B</color>
+    <color name="outputCardBackground">#1E1E1E</color>
 
     <!-- Semantic text colors -->
-    <color name="textPlaceholder">#D8C2C0</color>
-    <color name="textDefault">#F4DEDC</color>
+    <color name="textPlaceholder">#F5F5F5</color>
+    <color name="textDefault">#F5F5F5</color>
 </resources>
